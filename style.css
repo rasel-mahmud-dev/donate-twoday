@@ -11,7 +11,8 @@ h1{
 }
 
 :root{
-    --primary: #7021d6;
+    --primary: #2aae48;
+    /* --primary: #7021d2; */
 }
 .container{
     /* max-width: 1400px; */
@@ -58,21 +59,55 @@ h1{
     margin: auto;
 }
 
-.donate-pricing-section{
-
+.donate-pricing-sec{
+    margin-top: 80px;
+}
+.donate-pricing-sec h1{
+    text-align: center;
+}
+.donate-pricing-sec p{
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
 }
 
-.pricing-cards{
+.pricing-list{
     display: flex;
+    margin-top: 20px;
+    justify-content: center;
 }
-.pricing-cards .card-item{
+.pricing-list .pricing-item{
     background: #FAFAFA;
     margin: 20px;
     padding: 5px 25px;
+    border-radius: 5px;
+}
+.pricing-list .default-selected{
+    background-color: #2aae482b;
+    border: 2px solid var(--primary);
+    color: #29ad48;
+}
+
+.donate-form{
+    max-width: 700px;
+    margin: auto;
+
+}
+.donate-form input{
+    width: 100%;
+    outline: none;
+    padding: 8px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #29ad48;
+}
+.donate-form .btn{
+    display: block;
+    margin: auto;
+    margin-top: 16px;
 }
 
 
-
-.donate-plan-section{
-
+.donate-plan-sec{
+    margin-top: 80px;
 }

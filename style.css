@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Rubik;
+}
+
+h1{
+    margin: 0;
+    font-size: 50px;
+
+}
+
+:root{
+    --primary: #7021d6;
+}
+.container{
+    /* max-width: 1400px; */
+    margin: auto;
+}
+
+.btn{
+    background: var(--primary);
+    border-radius: 5px; 
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+.top-banner{
+    background-image: url("./images/Rectangle-237.png");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-banner h1, .top-banner p{
+    text-align: center;
+}
+
+.top-banner h1{
+    color: #FAFAFA;
+}
+.top-banner p{
+    color: #e6e6e6;
+}
+.top-banner .btn{
+    display: block;
+    margin: auto;
+}
+
+.top-banner-content{
+    padding: 80px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.donate-pricing-section{
+
+}
+
+.pricing-cards{
+    display: flex;
+}
+.pricing-cards .card-item{
+    background: #FAFAFA;
+    margin: 20px;
+    padding: 5px 25px;
+}
+
+
+
+.donate-plan-section{
+
+}

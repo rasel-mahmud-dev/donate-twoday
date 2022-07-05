@@ -4,10 +4,13 @@ body{
     font-family: Rubik;
 }
 
-h1{
+h1, h2, h3, h4, p{
     margin: 0;
-    font-size: 50px;
+    padding: 0;
+}
 
+h1{
+    font-size: 50px;
 }
 
 :root{
@@ -15,8 +18,20 @@ h1{
     /* --primary: #7021d2; */
 }
 .container{
-    /* max-width: 1400px; */
-    margin: auto;
+   
+    max-width: 1400px;
+    margin: 100px auto;
+}
+
+.container h1{
+    text-align: center;
+    color: rgb(34, 34, 34);
+}
+.container p{
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(92, 92, 92);
 }
 
 .btn{
@@ -29,6 +44,7 @@ h1{
 }
 
 .top-banner{
+    margin-top: 0px;
     background-image: url("./images/Rectangle-237.png");
     height: 650px;
     background-repeat: no-repeat;
@@ -38,38 +54,29 @@ h1{
     justify-content: center;
 }
 
-.top-banner h1, .top-banner p{
-    text-align: center;
-}
-
 .top-banner h1{
-    color: #FAFAFA;
+    color: white;
 }
 .top-banner p{
-    color: #e6e6e6;
+    color: white;
 }
+
+
 .top-banner .btn{
     display: block;
     margin: auto;
+    margin-top: 30px;
 }
 
 .top-banner-content{
-    padding: 80px;
     max-width: 700px;
     margin: auto;
 }
 
 .donate-pricing-sec{
-    margin-top: 80px;
+    
 }
-.donate-pricing-sec h1{
-    text-align: center;
-}
-.donate-pricing-sec p{
-    max-width: 700px;
-    margin: 20px auto;
-    text-align: center;
-}
+
 
 .pricing-list{
     display: flex;
@@ -109,5 +116,39 @@ h1{
 
 
 .donate-plan-sec{
-    margin-top: 80px;
+   
+}
+
+.plan-list{
+    display: flex;
+}
+.plan-item{
+    background-color: #4F9DA6;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+#plan-item-1{
+    background-color: #e8e6ff;
+}
+#plan-item-2{
+    background-color: #dfffe6;
+}
+#plan-item-3{
+    background-color: #ffe0df;
+}
+
+.plan-item img{
+    color: white;
+}
+
+.plan-item h4{
+    margin-top: 20px;
+    color: rgb(19, 19, 19);
+
+}
+.plan-item p{
+    color: rgb(44, 44, 44);
+    margin-top: 10px;
+    text-align: start;
 }

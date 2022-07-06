@@ -266,3 +266,34 @@ p{
     font-size: 14px;
 }
 
+
+
+/* subscribe section */
+.subscribe-form{
+    max-width: 650px;
+    margin: 40px auto 0 auto;
+    padding: 100px;
+    background-color: #2aae482b;
+}
+
+.input-box{
+   background-color: white;
+   display: flex;
+   border-top-left-radius: 5px;
+   border-radius: 5px;
+}
+.input-box input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    color: rgb(119, 119, 119);
+}
+
+.input-box .btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0 60px;
+}
+

@@ -222,3 +222,47 @@ p{
     text-align: center;
     margin-bottom: 20px;
 }
+
+/* success-sec */
+.success-sec .gallery{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 20px;
+}
+.success-sec .gallery img{
+    width: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.donations-collections{
+    display: flex;
+    justify-content: center;
+}
+.collection-item{
+    background: #f7f7f7;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 5px;
+    padding: 20px 50px;
+}
+.collection-item img{
+    width: 40px;
+    margin: auto;
+    display: block;
+}
+.collection-item h3{
+    color: #2aae48;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.collection-item p{
+    color: rgb(54, 54, 54);
+    text-align: start;
+    margin: 5px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+}
+

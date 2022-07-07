@@ -115,9 +115,7 @@ p{
     border: none;
     border-bottom: 2px solid #29ad48;
 }
-.donate-form input::placeholder{
-    color: rgb(163, 163, 163);
-}
+
 .donate-form .btn{
     display: block;
     margin: auto;
